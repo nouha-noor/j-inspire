@@ -12,6 +12,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="Home.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".fa-chevron-circle-down").click(function () {
+          $(".hidden-part").show();
+        });
+        $(".fa-chevron-circle-up").click(function () {
+          $(".hidden-part").hide();
+        });
+      });
+    </script>
   </head>
   <body>
     <!-- navbar -->
@@ -55,61 +66,220 @@
     <!-- second part -->
     <section class="part-two">
       <div class="ctn-pt-2">
-        <div class="separator"><h2 class="tilte-ctn-pt-2">POURQUOI J'INSPIRE ?</h2></div>
+        <div class="separator">
+          <h2 class="tilte-ctn-pt-2">POURQUOI J'INSPIRE ?</h2>
+        </div>
 
-        <center><p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+        <center>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+            quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
+            voluptate blanditiis, eaque repellendus perferendis sit quo odio
+            neque molestias corporis!
+          </p>
+        </center>
+        <i class="fas fa-chevron-circle-down"></i>
+      </div>
+    </section>
+    <!-- hidden part -->
+    <section class="hidden-part" hidden>
+      <div class="separator">
+        <h2 class="tilte-ctn-pt-2">
+          <span class="span-part-3-gd">POURQUOI</span>
+          <span class="hidden">J'INSPIRE</span>
+        </h2>
+      </div>
+      <center>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
           quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
           voluptate blanditiis, eaque repellendus perferendis sit quo odio neque
           molestias corporis!
-        </p></center>
-        <i class="fas fa-chevron-circle-down"></i>
-         
-      </div>
+        </p>
+      </center>
+      <main class="hidden-grid">
+        <div class="hidden-grid-iteam">
+          <h5>
+            <span><i class="far fa-lightbulb"></i> </span>Lorem ipsum
+          </h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+            quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
+            voluptate blanditiis, eaque repellendus perferendis sit quo odio
+            neque molestias corporis!
+          </p>
+        </div>
+        <div class="hidden-grid-iteam">
+          <h5>
+            <span><i class="far fa-lightbulb"></i> </span>Lorem ipsum
+          </h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+            quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
+            voluptate blanditiis, eaque repellendus perferendis sit quo odio
+            neque molestias corporis!
+          </p>
+        </div>
+        <div class="hidden-grid-iteam">
+          <h5>
+            <span><i class="far fa-lightbulb"></i> </span>Lorem ipsum
+          </h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+            quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
+            voluptate blanditiis, eaque repellendus perferendis sit quo odio
+            neque molestias corporis!
+          </p>
+        </div>
+        <div class="hidden-grid-iteam">
+          <h5>
+            <span><i class="far fa-lightbulb"></i> </span>Lorem ipsum
+          </h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+            quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
+            voluptate blanditiis, eaque repellendus perferendis sit quo odio
+            neque molestias corporis!
+          </p>
+        </div>
+        <div class="hidden-grid-iteam">
+          <h5>
+            <span><i class="far fa-lightbulb"></i> </span>Lorem ipsum
+          </h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+            quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
+            voluptate blanditiis, eaque repellendus perferendis sit quo odio
+            neque molestias corporis!
+          </p>
+        </div>
+        <div class="hidden-grid-iteam">
+          <h5>
+            <span><i class="far fa-lightbulb"></i> </span>Lorem ipsum
+          </h5>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+            quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
+            voluptate blanditiis, eaque repellendus perferendis sit quo odio
+            neque molestias corporis!
+          </p>
+        </div>
+      </main>
+      <center><i class="fas fa-chevron-circle-up"></i></center>
     </section>
+    <!-- end hidden part -->
+    <!-- nos services -->
+    <section class="nos-services">
+      <div class="separator">
+        <h2 class="tilte-ctn-pt-2">
+          <span class="span-part-3-gd">NOS</span>
+          <span class="hidden">SERVICES</span>
+        </h2>
+      </div>
+      <center>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ipsa
+          quos, aut deleniti beatae dolore voluptatum impedit dolor magnam
+          voluptate blanditiis, eaque repellendus perferendis sit quo odio neque
+          molestias corporis!
+        </p>
+      </center>
+      <main class="nos-services-grid">
+        <div class="nos-services-grid-iteam">
+          <h5>
+            <span><i class="far fa-star"></i> </span>Lorem ipsum
+          </h5>
+        </div>
+        <div class="nos-services-grid-iteam">
+          <h5>
+            <span><i class="far fa-star"></i> </span>Lorem ipsum
+          </h5>
+        </div>
+        <div class="nos-services-grid-iteam">
+          <h5>
+            <span><i class="far fa-star"></i> </span>Lorem ipsum
+          </h5>
+        </div>
+        <div class="nos-services-grid-iteam">
+          <h5>
+            <span><i class="far fa-star"></i> </span>Lorem ipsum
+          </h5>
+        </div>
+        <div class="nos-services-grid-iteam">
+          <h5>
+            <span><i class="far fa-star"></i> </span>Lorem ipsum
+          </h5>
+        </div>
+        <div class="nos-services-grid-iteam">
+          <h5>
+            <span><i class="far fa-star"></i> </span>Lorem ipsum
+          </h5>
+        </div>
+      </main>
+    </section>
+    <!-- end nos services -->
     <!-- end second part -->
     <!-- third part -->
     <section class="part-three">
-      <div class="separator"><h2 class="tilte-ctn-pt-2"><span class="span-part-3-gd">NOS</span> PROJETS</h2></div>
+      <div class="separator">
+        <h2 class="tilte-ctn-pt-2">
+          <span class="span-part-3-gd">NOS</span> PROJETS
+        </h2>
+      </div>
       <main class="part-3-grid">
-        <img src="images/pic1.png" class="part-3-grid-item">
-        <img src="images/pic2.png" class="part-3-grid-item" >
-        <img src="images/pic3.png" class="part-3-grid-item" >
-        <img src="images/pic1.png" class="part-3-grid-item">
-        <img src="images/pic2.png" class="part-3-grid-item">
-        <img src="images/pic3.png" class="part-3-grid-item">
-
-    </main>
-    <!-- forth part -->
-    <section class="part-four">
-      <div class="container ctn-4-help">
-        <i class="fas fa-comments"></i>
-        <div>
-        <h3> We're Here To Help</h3>
-        <h6>Businesses today cross borders and regions,so you need</h6>
-      </div>
-      </div>
-      <div class="container">
-        <button>Get help here</button>
-      </div>
-    </section>
-    <!-- end forth part -->
+        <img src="images/pic1.png" class="part-3-grid-item" />
+        <img src="images/pic2.png" class="part-3-grid-item" />
+        <img src="images/pic3.png" class="part-3-grid-item" />
+        <img src="images/pic1.png" class="part-3-grid-item" />
+        <img src="images/pic2.png" class="part-3-grid-item" />
+        <img src="images/pic3.png" class="part-3-grid-item" />
+      </main>
+      <!-- forth part -->
+      <section class="part-four">
+        <div class="container ctn-4-help">
+          <i class="fas fa-comments"></i>
+          <div>
+            <h3>We're Here To Help</h3>
+            <h6>Businesses today cross borders and regions,so you need</h6>
+          </div>
+        </div>
+        <div class="container">
+          <button>Get help here</button>
+        </div>
+      </section>
+      <!-- end forth part -->
     </section>
     <!-- end third part -->
     <footer>
       <div class="foo">
         <img src="images/thumbnail_image001.png" class="logo" />
         <div class="contact">
-          <h3 style="color:white;margin-bottom: 20px">Contacter-nous :</h3>
-          <p style="color:white ; font-size:13px ;">5 AV HBIB THAMEUR 2éme étage, Manouba</p>
-          <p style="color:white ; font-size:13px">j'inspire.agency@gmail.com</p>
-          <p style="color:white ; font-size:13px">+216 70 615 978 / +216 99 715 777</p>
+          <h3 style="color: white; margin-bottom: 20px">Contacter-nous :</h3>
+          <p style="color: white; font-size: 13px">
+            <i class="fas fa-home"></i>5 AV HBIB THAMEUR 2éme étage, Manouba
+          </p>
+          <p style="color: white; font-size: 13px">
+            <i class="fas fa-paper-plane"></i>j'inspire.agency@gmail.com
+          </p>
+          <p style="color: white; font-size: 13px">
+            <i class="fas fa-phone-square"></i>+216 70 615 978 / +216 99 715 777
+          </p>
         </div>
         <div class="suivre">
-          <h3 style="color:white">Suivre-nous :</h3>
-         
+          <h3 style="color: white; padding-bottom: 40px">Suiver-nous sur :</h3>
+          <div class="social-media">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
         </div>
       </div>
     </footer>
-    
   </body>
 </html>
